@@ -4,7 +4,6 @@ import CoreLocation
 
 @objc(LocationModule)
 class LocationModule: RCTEventEmitter, CLLocationManagerDelegate {
-  var count = 0
   var locationManager: CLLocationManager?
   
   override init() {
